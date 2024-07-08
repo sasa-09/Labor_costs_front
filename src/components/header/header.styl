@@ -1,0 +1,27 @@
+body 
+    background-color c-2
+
+.header
+    min-width 100vw
+    min-height 10vh
+    background-color c-1
+    border-bottom c-0 solid 0.2em
+    display flex
+    justify-content space-around
+    align-items center
+    &__nav__menu
+        display: flex
+        justify-content space-around
+        width 50vw
+        &__item
+            color #adadad
+            font-size: 1.5em
+            &:hover
+                color #fff
+                cursor pointer
+            &_active
+                color #fff
+    &__buttons
+        display: flex
+        justify-content space-evenly
+        width 15vw
