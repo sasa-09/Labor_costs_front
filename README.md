@@ -1,12 +1,12 @@
 # Установка
 Клонирование проекта:
 ```shell
-git clone https://github.com/KlimentFis/Labor_costs
+git clone https://github.com/sasa-09/Labor_costs_front.git
 ```
 
 Переход в папку проекта:
 ```shell
-cd Labor_costs
+cd Labor_costs_front
 ```
 
 Установка зависимостей:
