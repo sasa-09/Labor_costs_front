@@ -5,20 +5,16 @@ export default function Header() {
 
     return (
         <>
-            <header className="header">
-                <nav className="header__nav">
-                    <ul className="header__nav__menu">
-                        <li className="header__nav__menu__item">Home</li>
-                        <li className="header__nav__menu__item">Project</li>
-                        <li className="header__nav__menu__item">well</li>
-                        <li className="header__nav__menu__item">well</li>
+            <header className="bg-gray-900 h-20 flex w-full items-center justify-around">
+                <nav className="w-auto h-full flex items-center justify-between">
+                    <ul className="w-auto h-full flex items-center justify-between gap-20">
+                        <li className="text-2xl text-gray-300 hover:cursor-pointer hover:text-white">Home</li>
+                        <li className="text-2xl text-gray-300 hover:cursor-pointer hover:text-white">Project</li>
+                        <li className="text-2xl text-gray-300 hover:cursor-pointer hover:text-white">well</li>
+                        <li className="text-2xl text-gray-300 hover:cursor-pointer hover:text-white">well</li>
                     </ul>
                 </nav>
-                
-                <div className="header__buttons">
-                    <Button text="login" />
-                    <Button text="register" />
-                </div>
+                <Button text="login" />
             </header>
         </>
     )
